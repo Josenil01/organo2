@@ -1,0 +1,18 @@
+.Time{
+    text-align: center;
+    padding: 32px;
+  
+}
+.Time h3 {
+    font-size: 32;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;    
+}
+.Time .colab{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px 16px 32px 16px;
+   
+    flex-wrap: wrap;
+}
