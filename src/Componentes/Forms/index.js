@@ -3,9 +3,8 @@ import TextBox from "../TextBox";
 import DropDown from "../DropDown";
 import Button from "../Button";
 import {useState} from 'react'
-
+import { v4 as uuidv4 } from 'uuid';
 const Forms = (props) => {
-
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
@@ -14,6 +13,7 @@ const Forms = (props) => {
     const Save = (evento) => {
         evento.preventDefault()
         props.colabSaved({
+            id:uuidv4(),
             nome,
             cargo,
             imagem,

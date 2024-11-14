@@ -1,7 +1,7 @@
 .Time{
     text-align: center;
     padding: 32px;
-  
+    position: relative;
 }
 .Time h3 {
     font-size: 32;
@@ -15,4 +15,10 @@
     margin-top: 32px 16px 32px 16px;
    
     flex-wrap: wrap;
+}
+
+.input-color{
+    position: absolute;
+    top: 20px;
+    right: 50px;
 }
