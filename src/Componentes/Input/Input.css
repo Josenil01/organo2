@@ -1,13 +1,13 @@
-.TextBox
+.Input
 {
     margin: 24px 0;
 }
-.TextBox label{
+.Input label{
     display: block;
     margin-bottom: 8px;
     font-size: 24px;
 }
-.TextBox input{
+.Input input{
     background-color: #fff;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
     width: 100%;
@@ -15,4 +15,8 @@
     font-size: 24px;
     padding: 24px;
     box-sizing: border-box;
+}
+.Input-color input{
+    height: 40px;
+    padding: 5px 24px;
 }
